@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box !important;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+div{
+    display: block;
+}
+
+h1.weight{
+    color: #080206;
+    font-size: 89px;
+    line-height: 91px;
+    padding-bottom: 45px;
+    font-weight: 1000;
+    margin-top: 266px;
+    z-index: -1;
+}
+
+.navigation ul li a{
+    color: white !important;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.navigation ul li a.active{
+    color: black !important;
+}
+
+a.exe_1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a.exe_1:hover{
+    color: #E90102 !important;
+}
+
+button.exe{
+    color: white !important;
+    font-weight: bold;
+}
+
+h5.trans{
+    color: #E90102;
+    cursor: default;
+}
+
+.bg-danger{
+    background-color: #E90102 !important;
+}
+
+.carousel-slide{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+button.read-more{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    font-size: 1.4em;
+    color: black;
+    font-weight: bold;
+}
+
+@media (min-width: 312px) and (max-width: 991px)
+{
+    .carousel-slide
+    {
+        background: none;
+    }
+    img.w-60
+    {
+        width: 90%;
+    }
+    .carousel-slide
+    {
+        text-align: center;
+    }
+}

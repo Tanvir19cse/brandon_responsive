@@ -1,0 +1,291 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box !important;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.body{
+    background-color: #FFFFFF;
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box;
+}
+
+h1.baloo{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+div{
+    display: block;
+}
+
+.navigation ul li a{
+    color: white !important;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+.navigation ul li a.active{
+    color: black !important;
+}
+
+a.exe_1{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a.exe_1:hover{
+    color: #E90102 !important;
+}
+
+button.exe{
+    color: white !important;
+    font-weight: bold;
+}
+
+h5.trans{
+    color: #E90102;
+    cursor: default;
+}
+
+.bg-danger{
+    background-color: #E90102 !important;
+}
+
+.about{
+    background-color: #FF0000 !important;
+}
+
+.main{
+    position: relative;
+    overflow: hidden;
+}
+
+.main::before{
+    content: "";
+    width: 15%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    background-image: url(../images/afbecro.png);
+    background-repeat:no-repeat;
+    top: 5%;
+    left: 0%;
+    margin-left: .5rem;
+}
+
+.main::after{
+    content: "";
+    width: 15%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    background-image: url(../images/afbecro.png);
+    background-repeat: no-repeat;
+    right: 0%;
+    left: 95.7%;
+    bottom: 0%;
+    top: 66%;
+    margin-left: -.8rem;
+}
+
+img.cimage{
+    max-width: 370px !important;
+    height: 370px !important;
+}
+
+.pra{
+    font-size: 16px;
+    color: #080206;
+    font-weight: 400;
+    line-height: 2rem !important;
+}
+
+.btn{
+    transition: .8s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05,1.05);
+}
+
+.btn:hover .link{
+    color: white !important;
+    transform:scale(1,1);
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.afbecros::before{
+	position: absolute;
+    content: "";
+    width: 56px;
+    height: 100%;
+    background: url(../img/afbecro.png);
+    top: 0;
+    background-repeat: no-repeat;
+    bottom: 0;
+	left: 30px;
+    background-position: center center;
+	z-index: 999;
+}
+
+.afbecros2::before{
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 100%;
+    background: url(../img/afbecro.png);
+    top: 0;
+    background-repeat: no-repeat;
+    bottom: 0;
+    background-position: bottom;
+    right: 30px;
+    z-index: 999;
+}
+
+a.redder{
+    cursor: text;
+}
+
+a.redder:hover{
+    color: #E90102 !important;
+}
+
+ol,ul,li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.location_icon{
+    font-family:'poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 1.6rem;   
+}
+
+ul.location_icon li{
+    font-size: 17px;
+    color: #000;
+    line-height: 1.1rem;
+    display: inline-block;
+    text-align: center;
+    margin: 0 45px;
+}
+
+ul.location_icon li a {
+    font-size: 2.5rem;
+    color: #000;
+    line-height: 1.8rem;
+    display: block;
+    transition: .5s ease-in;
+}
+
+.bi {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+ul.location_icon li a:hover{
+    color: #FF0000;
+}
+
+.text-dolor{
+    font-family: 'poppins', sans-serif;
+    line-height:2rem;
+    font-weight: 500;
+    color: #080206;
+    font-size: 1.09rem;
+    text-align: center;
+}
+
+.copy{
+    color: #292929;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    text-align: center;
+    font-weight: 400;
+    padding-right: 0!important;
+}
+
+.carousel-bg{
+    background: url("../img/test_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item{
+    position: relative;
+    visibility: visible;
+}
+
+.carousel-indicators button{
+    border-radius: 40%;
+    width: 40px !important;
+    height: 30px !important;
+    background-color: #E90102 !important;
+}
+
+button.dark.active{
+    background-color: black !important;
+}
+
+h4.text-danger{
+    color: #E90102 !important;
+}
+
+.p-width{
+    width: 85%;
+    text-align: center;
+}
+
+p.new-text{
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 2;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: .3rem;
+    color: #000;
+    transition: .5s ease-in;
+}
+
+a:hover{
+    color: #FF0000;
+}
+
+@media (min-width: 312px) and (max-width: 991px)
+{
+    .afbecros::before 
+    {
+        left: 7px;
+        display: none;
+    }
+    .afbecros2::before 
+    {
+        left: 7px;
+        display: none;
+    }
+}
